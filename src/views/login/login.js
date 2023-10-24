@@ -49,7 +49,7 @@ const Login = () => {
             <Form onSubmit={onSubmit} className="inputPadding">
                 <Col lg="4" className="mx-auto">
                     <h1>Login</h1>
-                    <h4>To see this page you must be logged</h4>
+                    <h4>To see this page you must be logged - (Test account: mail: ciao@ciao.it - psw: CiaoCiao) - Or just Subscribe! :-D</h4>
                     <Form.Group className="mb-3">
                         <Form.Label>Email address</Form.Label>
                         <Form.Control 
