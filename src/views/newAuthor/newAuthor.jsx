@@ -117,7 +117,7 @@ const NewAuthor = () => {
           />
         </Form.Group>
         <Form.Group className="mt-3">
-          <Form.Label>Password</Form.Label>
+          <Form.Label>Password - (min 8 caracters)</Form.Label>
           <Form.Control
             type="password"
             size="lg"
@@ -127,7 +127,7 @@ const NewAuthor = () => {
           />
         </Form.Group>
         <Form.Group className="mt-3">
-          <Form.Label>Born Date</Form.Label>
+          <Form.Label>Born Date - dd/mm/yyyy</Form.Label>
           <Form.Control
             size="lg"
             placeholder="BornDate"
